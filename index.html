@@ -56,7 +56,6 @@
                 </li>
                 <li><a class="page-scroll" href="#skills">Skills</a></li>
                 <li><a class="page-scroll" href="#work">Work</a></li>
-                <li><a class="page-scroll" href="#awards">Awards</a></li>
                 <li><a class="page-scroll" href="#projects">Projects</a></li>
                 <li><a class="page-scroll" href="#contact">Contact</a></li>
             </ul>
@@ -76,7 +75,7 @@
                     <p class="intro-text">Fourth year <em>Computer Science</em> student enrolled at the <strong>University of Ottawa</strong>, set to graduate in December 2016.
                         <br>After completing his first internship with <strong>Canadian Heritage</strong>, he is excited to begin his second internship with <strong>Amazon</strong> this summer.
                     </p>
-                    <a href="#about" class="btn btn-circle page-scroll">
+                    <a href="#skills" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                 </div>
@@ -86,10 +85,10 @@
 </header>
 
 <!-- Skills Section -->
-<section id="skills" class="container content-section text-center">
-    <div class="row">
+<section id="skills" class="container about-section text-center">
+    <div class="container">
         <h1>Skills</h1>
-            <div class="row">
+            <!--<div class="row">-->
                 <div class="col-lg-8 col-md-8">
                     <h2>Languages</h2>
                     <div class="row">
@@ -120,22 +119,72 @@
                         <li>Photoshop</li>
                     </ul>
                 </div>
-            </div>
+            <!--</div>-->
     </div>
 </section>
 
 <!-- Work Section -->
 <section id="work" class="content-section text-center">
-    <div class="download-section">
+    <div class="work-section">
         <div class="container">
             <h1>Work Experience</h1>
+            <!-- JOB 1 -->
+            <div class="row item">
+                <div class="col-lg-4 col-md-4">
+                    <img class="img-responsive" src="img/amazon.png">
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <h2 class="mrgn-btm-sm text-left">Amazon</h2>
+                    <p class="text-left"><em>Optimal Sourcing Systems</em>
+                        <br><abbr title="Software Development Engineer">SDE</abbr> Intern
+                        <br>June 2016 - September 2016
+                    </p>
+                </div>
+            </div>
+            <!-- JOB 2 -->
+            <div class="row item">
+                <div class="col-lg-4 col-md-4">
+                    <img class="img-responsive" src="img/Canadian%20Heritage.jpg">
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <h2 class="mrgn-btm-sm text-left">Canadian Heritage</h2>
+                    <p class="text-left"><em>Chief Information Officer Branch</em>
+                        <br>Application Developer / Quality Control Tester
+                        <br>May 2015 - April 2016
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="content-section text-center">
+    <div class="container">
+        <h1>Projects</h1>
+        <!-- JOB 1 -->
+        <div class="row item">
             <div class="col-lg-4 col-md-4">
-                <!--<img src="img/Canada.png">-->
+                <a href="http://sizzl.me/">
+                    <img class="img-responsive" src="img/sizzl-white.png" style="vertical-align: middle;">
+                </a>
             </div>
             <div class="col-lg-8 col-md-8">
-                <p class="text-left"><span class="text-capitalize">Canadian Heritage</span>
-                    <br>Chief Information Officer Branch
-                    <br>May 2015 - April 2016
+                <h2 class="mrgn-btm-sm">Sizzl</h2>
+                <p class="text-left" style="vertical-align: middle; margin-top: auto; margin-bottom: auto;">School project for databases course where a web application interfaces with a database. I created the front end using the Bootstrap framework and helped design the schema.
+                </p>
+            </div>
+        </div>
+        <!-- JOB 2 -->
+        <div class="row item">
+            <div class="col-lg-4 col-md-4">
+                <a href="https://github.com/jreinlein/wiki-count">
+                    <img class="img-responsive" src="img/wikiCount.png">
+                    </a>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <h2 class="mrgn-btm-sm">WikiCount</h2>
+                <p class="text-left">Java application built using JSoup and JavaFX that takes the URL of a Wikipedia article and parses the HTML to extract the most common words, listing them in order.
                 </p>
             </div>
         </div>

@@ -1,3 +1,15 @@
-section#about {
+section#skills {
     font-size: 20px;
+}
+.item {
+    border-bottom: 1px solid grey;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.item:last-child {
+    border-bottom: none;
+}
+
+.mrgn-btm-sm {
+    margin-bottom: 0.5em;
 }
