@@ -13,3 +13,7 @@ section#skills {
 .mrgn-btm-sm {
     margin-bottom: 0.5em;
 }
+
+.icon-descrip {
+    color: rgba(255, 255, 255, 0.5);
+}
