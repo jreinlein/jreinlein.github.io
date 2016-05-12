@@ -17,3 +17,12 @@ section#skills {
 .icon-descrip {
     color: rgba(255, 255, 255, 0.5);
 }
+
+.content-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills-section {
+    padding-top: 25px;
+}
