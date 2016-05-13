@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="290b9aa4-d2d8-49dd-96cb-33cad65686d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="290b9aa4-d2d8-49dd-96cb-33cad65686d2" name="Default" comment="" />
     <ignored path="jreinlein.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -653,12 +650,12 @@
       <option name="number" value="Default" />
       <updated>1462978302427</updated>
       <workItem from="1462978303714" duration="11339000" />
-      <workItem from="1463064838416" duration="7892000" />
+      <workItem from="1463064838416" duration="8481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19231000" />
+    <option name="totallyTimeSpent" value="19820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1043" height="1119" extended-state="0" />
