@@ -93,9 +93,11 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading"><span class="light">James</span> Reinlein</h1>
-                        <p class="intro-text">Fourth year <em>Computer Science</em> student enrolled at the <strong>University of Ottawa</strong>, set to graduate in December 2016.
+                    <div  class="col-md-8 col-md-offset-2" itemscope itemtype="https://schema.org/Person" id="james">
+                        <meta itemprop="jobTitle" content="SDE Intern">
+                        <meta itemprop="worksFor" content="Amazon">
+                        <h1 class="brand-heading"><span class="light" itemprop="givenName">James</span> <span itemprop="familyName">Reinlein</span></h1>
+                        <p class="intro-text" itemprop="description">Fourth year <em>Computer Science</em> student enrolled at the <strong>University of Ottawa</strong>, set to graduate in December 2016.
                             <br>After completing his first internship with <strong>Canadian Heritage</strong>, he is excited to begin his second internship with <strong>Amazon</strong> this summer.
                         </p>
                         <a href="#skills" class="btn btn-circle page-scroll">
@@ -156,10 +158,14 @@
                     <div class="col-lg-4 col-md-4">
                         <img class="img-responsive" src="img/amazon.png" alt="">
                     </div>
-                    <div class="col-lg-8 col-md-8">
-                        <h2 class="mrgn-btm-sm text-left">Amazon</h2>
-                        <p class="text-left"><em>Optimal Sourcing Systems</em>
-                            <br><abbr title="Software Development Engineer">SDE</abbr> Intern
+                    <div class="col-lg-8 col-md-8" itemscope itemtype="https://schema.org/Organization">
+                        <h2 class="mrgn-btm-sm text-left" itemprop="name">Amazon</h2>
+                        <meta itemprop="department" content="Optimal Sourcing Systems (OSS)">
+                        <p class="text-left" itemprop="member" itemscope itemtype="https://schema.org/Role">
+                            <em>Optimal Sourcing Systems</em>
+                            <br><span itemprop="roleName"><abbr title="Software Development Engineer">SDE</abbr> Intern</span>
+                            <meta itemprop="startDate" content="2016-06-01">
+                            <meta itemprop="endDate" content="2016-09-02">
                             <br>June 2016 - September 2016
                         </p>
                     </div>
@@ -169,10 +175,14 @@
                     <div class="col-lg-4 col-md-4">
                         <img class="img-responsive" src="img/PCH.png" alt="">
                     </div>
-                    <div class="col-lg-8 col-md-8">
-                        <h2 class="mrgn-btm-sm text-left">Canadian Heritage</h2>
-                        <p class="text-left"><em>Chief Information Officer Branch</em>
-                            <br>Application Developer / Quality Control Tester
+                    <div class="col-lg-8 col-md-8" itemscope itemtype="https://schema.org/Organization">
+                        <h2 class="mrgn-btm-sm text-left" itemprop="name">Canadian Heritage</h2>
+                        <meta itemprop="department" content="Chief Information Officer Branch (CIOB)">
+                        <p class="text-left" itemprop="member" itemscope itemtype="https://schema.org/Role">
+                            <em>Chief Information Officer Branch</em>
+                            <br><span itemprop="roleName">Application Developer / Quality Control Tester</span>
+                            <meta itemprop="startDate" content="2015-05-01">
+                            <meta itemprop="endDate" content="2016-04-30">
                             <br>May 2015 - April 2016
                         </p>
                     </div>
@@ -192,9 +202,13 @@
                         <img class="img-responsive" src="img/sizzl.png" alt="" style="vertical-align: middle;">
                     </a>
                 </div>
-                <div class="col-lg-8 col-md-8">
-                    <h2 class="mrgn-btm-sm">Sizzl</h2>
-                    <p class="text-left" style="vertical-align: middle; margin-top: auto; margin-bottom: auto;">School project for databases course where a web application interfaces with a database. I created the front end using the Bootstrap framework and helped design the schema.
+                <div class="col-lg-8 col-md-8" itemscope itemtype="https://schema.org/WebApplication">
+                    <meta itemprop="url" content="http://sizzl.me/">
+                    <meta itemprop="applicationCategory" content="Restaurants, Review, Database">
+                    <meta itemprop="operatingSystem" content="All">
+                    <h2 class="mrgn-btm-sm" itemprop="name">Sizzl</h2>
+                    <p class="text-left" style="vertical-align: middle; margin-top: auto; margin-bottom: auto;" itemprop="description">
+                        School project for databases course where a web application interfaces with a database. I created the front end using the Bootstrap framework and helped design the schema.
                     </p>
                 </div>
             </div>
@@ -203,11 +217,14 @@
                 <div class="col-lg-4 col-md-4">
                     <a href="https://github.com/jreinlein/wiki-count">
                         <img class="img-responsive" src="img/wikiCount.png" alt="">
-                        </a>
+                    </a>
                 </div>
-                <div class="col-lg-8 col-md-8">
-                    <h2 class="mrgn-btm-sm">WikiCount</h2>
-                    <p class="text-left">Java application built using JSoup and JavaFX that takes the URL of a Wikipedia article and parses the HTML to extract the most common words, listing them in order.
+                <div class="col-lg-8 col-md-8" itemscope itemtype="https://schema.org/SoftwareApplication">
+                    <meta itemprop="url" content="https://github.com/jreinlein/wiki-count">
+                    <meta itemprop="applicationCategory" content="Wikipedia, Vocabulary, Analytics">
+                    <meta itemprop="operatingSystem" content="All (runs on JVM)">
+                    <h2 class="mrgn-btm-sm" itemprop="name">WikiCount</h2>
+                    <p class="text-left" itemprop="description">Java application built using JSoup and JavaFX that takes the URL of a Wikipedia article and parses the HTML to extract the most common words, listing them in order.
                     </p>
                 </div>
             </div>
@@ -220,19 +237,24 @@
             <div class="container">
                 <h2>Get in Touch</h2>
                 <div class="col-lg-offset-2 col-md-offset-2">
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-lg-2 col-md-2" itemscope itemtype="http://schema.org/ContactPoint" itemref="james">
+                        <meta itemprop="name" content="E-Mail">
+                        <meta itemprop="email" content="jamesreinlein@gmail.com">
                         <a href="mailto:jamesreinlein@gmail.com"><i class="fa fa-envelope fa-5x"></i>
                         <p class="icon-descrip">E-Mail</p></a>
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-lg-2 col-md-2" itemscope itemtype="http://schema.org/ContactPoint" itemref="james">
+                        <meta itemprop="name" content="LinkedIn">
                         <a href="https://ca.linkedin.com/in/jamesreinlein"><i class="fa fa-linkedin fa-5x"></i>
                         <p class="icon-descrip">LinkedIn</p></a>
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-lg-2 col-md-2" itemscope itemtype="http://schema.org/ContactPoint" itemref="james">
+                        <meta itemprop="name" content="Twitter">
                         <a href="https://twitter.com/jreinlein"><i class="fa fa-twitter fa-5x"></i>
                         <p class="icon-descrip">Twitter</p></a>
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-lg-2 col-md-2" itemscope itemtype="http://schema.org/ContactPoint" itemref="james">
+                        <meta itemprop="name" content="GitHub">
                         <a href="https://github.com/jreinlein/"><i class="fa fa-github fa-5x"></i>
                         <p class="icon-descrip">GitHub</p></a>
                     </div>
